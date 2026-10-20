@@ -1,0 +1,88 @@
+# --- Python runtime ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.egg
+MANIFEST
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+junit*.xml
+.hypothesis/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# --- Secrets, credentials, environment ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*credentials*
+secrets/
+secrets.*
+.aws/
+.gnupg/
+
+# --- Real log data (never commit production logs: they contain PII) ---
+*.log
+!examples/auth.log.sample
+logs/
+auth.log
+secure
+/var/log/
+*.journal
+
+# --- Packet captures ---
+*.pcap
+*.pcapng
+*.cap
+
+# --- IDE / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Package caches ---
+pip-log.txt
+pip-delete-this-directory.txt

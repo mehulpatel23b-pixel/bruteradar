@@ -1,0 +1,4 @@
+# bruteradar has zero runtime dependencies (Python 3.8+ standard library).
+# This file exists so the project stays pip-friendly and CI-validated:
+#     pip install -r requirements.txt  # no-op, documents intent
+# Dev-only tooling (optional): pip install ruff coverage

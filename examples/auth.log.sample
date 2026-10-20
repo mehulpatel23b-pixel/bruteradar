@@ -1,0 +1,25 @@
+Oct 20 08:58:01 web01 sshd[1001]: Accepted publickey for deploy from 203.0.113.200 port 40124 ssh2
+Oct 20 08:58:30 web01 systemd[1]: Started Daily apt upgrade.
+Oct 20 08:59:14 web01 sshd[1010]: Failed password for root from 203.0.113.10 port 55001 ssh2
+Oct 20 08:59:16 web01 sshd[1010]: Failed password for root from 203.0.113.10 port 55002 ssh2
+Oct 20 08:59:19 web01 sshd[1010]: Failed password for root from 203.0.113.10 port 55003 ssh2
+Oct 20 08:59:23 web01 sshd[1010]: Failed password for invalid user admin from 203.0.113.10 port 55004 ssh2
+Oct 20 08:59:27 web01 sshd[1010]: Failed password for invalid user admin from 203.0.113.10 port 55005 ssh2
+Oct 20 08:59:30 web01 sshd[1010]: Failed password for invalid user admin from 203.0.113.10 port 55006 ssh2
+Oct 20 08:59:33 web01 sshd[1010]: Failed password for root from 203.0.113.10 port 55007 ssh2
+Oct 20 09:00:01 web01 CRON[1020]: (root) CMD (command -v debian-sa1 > /dev/null)
+Oct 20 09:00:41 web01 sshd[1033]: Accepted password for root from 203.0.113.10 port 55008 ssh2
+Oct 20 09:01:02 web01 sshd[1044]: Failed password for svc_backup from 198.51.100.44 port 56001 ssh2
+Oct 20 09:01:22 web01 sshd[1044]: Failed password for jdoe from 198.51.100.44 port 56002 ssh2
+Oct 20 09:01:44 web01 sshd[1044]: Failed password for admin from 198.51.100.44 port 56003 ssh2
+Oct 20 09:02:03 web01 sshd[1044]: Failed password for test from 198.51.100.44 port 56004 ssh2
+Oct 20 09:02:25 web01 sshd[1044]: Failed password for ubuntu from 198.51.100.44 port 56005 ssh2
+Oct 20 09:02:47 web01 sshd[1044]: Failed password for guest from 198.51.100.44 port 56006 ssh2
+Oct 20 09:03:09 web01 sshd[1044]: Failed password for oracle from 198.51.100.44 port 56007 ssh2
+Oct 20 09:03:31 web01 sshd[1044]: Failed password for postgres from 198.51.100.44 port 56008 ssh2
+Oct 20 09:03:52 web01 sshd[1044]: Failed password for git from 198.51.100.44 port 56009 ssh2
+Oct 20 09:04:14 web01 sshd[1044]: Failed password for nagios from 198.51.100.44 port 56010 ssh2
+Oct 20 09:04:36 web01 sshd[1044]: Failed password for monitoring from 198.51.100.44 port 56011 ssh2
+Oct 20 09:04:58 web01 sshd[1044]: Failed password for sftp from 198.51.100.44 port 56012 ssh2
+Oct 20 09:05:20 web01 sshd[1061]: Failed password for sara from 198.51.100.1 port 59001 ssh2
+Oct 20 09:05:44 web01 sshd[1075]: Accepted publickey for sara from 198.51.100.1 port 59002 ssh2
